@@ -15,7 +15,7 @@ func main() {
 	// Open the CSV files and read all of the records
 	records := make(map[string]map[string]string)
 	filepath :=
-		"~Desktop"
+		"~/Desktop"
 	for _, file := range []string{filepath + "Bunchofstuff.csv", "Bunchofstuff2.csv", "Bunchofstuff3.csv"} {
 		f, err := os.Open(file)
 		if err != nil {
